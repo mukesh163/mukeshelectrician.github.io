@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mukesh Electrician - Professional electrical services in Premnagar, Surajpur, Chhattisgarh. Home wiring, repairs, lighting, MCB and inverter connections.">
+<meta name="theme-color" content="#101010">
+<title>Mukesh Electrician | Electrical Services</title>
+<style>
+:root{--bg:#101010;--panel:#191919;--gold:#e7b943;--gold2:#ffd875;--white:#f7f4ed;--muted:#bdb8aa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#101010ee;backdrop-filter:blur(12px);border-bottom:1px solid #ffffff18}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0}.brand{font-weight:900;letter-spacing:.4px;font-size:19px}.brand b{color:var(--gold)}
+.navright{display:flex;align-items:center;gap:10px}.lang{border:1px solid var(--gold);color:var(--gold);background:transparent;padding:8px 12px;border-radius:22px;font-weight:700;cursor:pointer}
+.menu{display:flex;gap:20px;color:var(--muted);font-size:14px}.menu a:hover{color:var(--gold)}
+.hero{padding:82px 0 70px;background:radial-gradient(ellipse at 80% 30%,#6b4c122e,transparent 45%),linear-gradient(135deg,#151515,#0c0c0c)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:35px}
+.eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(38px,6vw,66px);line-height:1.04;margin:14px 0}.gold{color:var(--gold)}
+.lead{color:var(--muted);font-size:18px;max-width:600px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;justify-content:center;align-items:center;padding:13px 20px;border-radius:8px;font-weight:800;border:1px solid var(--gold);transition:.2s}
+.btn.primary{background:var(--gold);color:#17130a}.btn.secondary{color:var(--gold)}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.hero-art{min-height:270px;border:1px solid #e7b94355;border-radius:24px;background:linear-gradient(145deg,#282116,#121212 65%);display:grid;place-items:center;position:relative;overflow:hidden}
+.bolt{font-size:125px;color:var(--gold);text-shadow:0 0 35px #e7b94370}.art-label{position:absolute;bottom:18px;left:20px;color:var(--muted);font-size:13px;letter-spacing:1px}
+section{padding:68px 0}.section-title{text-align:center;margin-bottom:34px}.section-title h2{font-size:clamp(27px,4vw,38px);margin:5px 0}.section-title p{color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{background:var(--panel);border:1px solid #ffffff12;border-radius:14px;padding:22px}.service .ico{font-size:27px}.service h3{margin:8px 0 4px;font-size:18px}.service p{margin:0;color:var(--muted);font-size:14px}
+.about{background:#151515}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.about-card{padding:28px;border:1px solid #e7b94355;border-radius:16px;background:#1b1a17}.about-card strong{color:var(--gold);font-size:22px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-card{background:var(--panel);border:1px solid #ffffff18;border-radius:14px;padding:24px}.contact-card h3{margin-top:0;color:var(--gold)}.contact-card p{color:var(--muted);margin:7px 0}
+footer{border-top:1px solid #ffffff18;padding:24px 0;color:var(--muted);font-size:13px;text-align:center}
+.floating{position:fixed;right:17px;bottom:17px;z-index:9;background:#20bd65;color:white;padding:13px 17px;border-radius:30px;font-weight:800;box-shadow:0 8px 25px #0008}
+@media(max-width:760px){.menu{display:none}.hero{padding:58px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-art{min-height:190px}.bolt{font-size:95px}.services{grid-template-columns:1fr 1fr}section{padding:52px 0}}
+@media(max-width:430px){.services{grid-template-columns:1fr}.brand{font-size:16px}.lead{font-size:16px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">⚡ MUKESH <b>ELECTRICIAN</b></a>
+  <nav class="menu"><a href="#home" data-en="Home" data-hi="होम">Home</a><a href="#services" data-en="Services" data-hi="सेवाएँ">Services</a><a href="#about" data-en="About" data-hi="हमारे बारे में">About</a><a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a></nav>
+  <div class="navright"><button class="lang" id="langBtn" type="button">हिंदी</button></div>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+  <div>
+    <div class="eyebrow" data-en="Professional Electrical Services" data-hi="प्रोफेशनल इलेक्ट्रिकल सर्विसेज">Professional Electrical Services</div>
+    <h1><span data-en="Powering Your" data-hi="आपकी दुनिया को">Powering Your</span><br><span class="gold" data-en="Home & Business" data-hi="रोशन बनाएं">Home & Business</span></h1>
+    <p class="lead" data-en="Reliable electrical work, repairs and installations in Premnagar and nearby areas." data-hi="प्रेमनगर और आसपास के क्षेत्रों में भरोसेमंद इलेक्ट्रिकल काम, रिपेयरिंग और फिटिंग।">Reliable electrical work, repairs and installations in Premnagar and nearby areas.</p>
+    <div class="actions">
+      <a class="btn primary" href="tel:+916266621447" data-en="Call Now · 6266621447" data-hi="अभी कॉल करें · 6266621447">Call Now · 6266621447</a>
+      <a class="btn secondary" href="https://wa.me/916266621447" target="_blank" rel="noopener" data-en="WhatsApp Us" data-hi="WhatsApp करें">WhatsApp Us</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-label="Electricity symbol"><div class="bolt">⚡</div><div class="art-label">SAFE • RELIABLE • PROFESSIONAL</div></div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <div class="section-title"><div class="eyebrow" data-en="What We Do" data-hi="हमारी सेवाएँ">What We Do</div><h2 data-en="Our Electrical Services" data-hi="हमारी इलेक्ट्रिकल सेवाएँ">Our Electrical Services</h2><p data-en="Practical solutions for your home, shop and office." data-hi="आपके घर, दुकान और ऑफिस के लिए इलेक्ट्रिकल समाधान।">Practical solutions for your home, shop and office.</p></div>
+  <div class="services">
+    <article class="service"><div class="ico">🏠</div><h3 data-en="Home Wiring & Fitting" data-hi="घर की वायरिंग एवं फिटिंग">Home Wiring & Fitting</h3><p data-en="Electrical wiring and fitting for homes." data-hi="घर की इलेक्ट्रिकल वायरिंग और फिटिंग।">Electrical wiring and fitting for homes.</p></article>
+    <article class="service"><div class="ico">🛠️</div><h3 data-en="Fault & Short Circuit Repair" data-hi="फॉल्ट एवं शॉर्ट सर्किट रिपेयरिंग">Fault & Short Circuit Repair</h3><p data-en="Electrical fault checking and repair." data-hi="इलेक्ट्रिकल फॉल्ट की जाँच और रिपेयरिंग।">Electrical fault checking and repair.</p></article>
+    <article class="service"><div class="ico">💡</div><h3 data-en="LED & Light Fitting" data-hi="LED एवं लाइट फिटिंग">LED & Light Fitting</h3><p data-en="Light installation and replacement." data-hi="लाइट लगाना और बदलना।">Light installation and replacement.</p></article>
+    <article class="service"><div class="ico">🌀</div><h3 data-en="Fan & Cooler Repair" data-hi="पंखा एवं कूलर रिपेयरिंग">Fan & Cooler Repair</h3><p data-en="Fan and cooler electrical repair." data-hi="पंखे और कूलर की इलेक्ट्रिकल रिपेयरिंग।">Fan and cooler electrical repair.</p></article>
+    <article class="service"><div class="ico">🔌</div><h3 data-en="MCB & DB Panel Fitting" data-hi="MCB एवं DB पैनल फिटिंग">MCB & DB Panel Fitting</h3><p data-en="MCB, distribution board and connections." data-hi="MCB, डिस्ट्रीब्यूशन बोर्ड और कनेक्शन।">MCB, distribution board and connections.</p></article>
+    <article class="service"><div class="ico">🔋</div><h3 data-en="Inverter & Battery Connection" data-hi="इन्वर्टर एवं बैटरी कनेक्शन">Inverter & Battery Connection</h3><p data-en="Inverter and battery electrical connections." data-hi="इन्वर्टर और बैटरी के इलेक्ट्रिकल कनेक्शन।">Inverter and battery electrical connections.</p></article>
+    <article class="service"><div class="ico">🏪</div><h3 data-en="Shop & Office Wiring" data-hi="दुकान एवं ऑफिस वायरिंग">Shop & Office Wiring</h3><p data-en="Electrical work for shops and offices." data-hi="दुकान और ऑफिस के लिए इलेक्ट्रिकल काम।">Electrical work for shops and offices.</p></article>
+    <article class="service"><div class="ico">⚙️</div><h3 data-en="Electrical Maintenance" data-hi="इलेक्ट्रिकल मेंटेनेंस">Electrical Maintenance</h3><p data-en="General electrical maintenance and checks." data-hi="सामान्य इलेक्ट्रिकल मेंटेनेंस और जाँच।">General electrical maintenance and checks.</p></article>
+    <article class="service"><div class="ico">🔧</div><h3 data-en="New Electrical Connections" data-hi="नए इलेक्ट्रिकल कनेक्शन">New Electrical Connections</h3><p data-en="New points and electrical connections." data-hi="नए पॉइंट और इलेक्ट्रिकल कनेक्शन।">New points and electrical connections.</p></article>
+  </div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap about-grid">
+  <div><div class="eyebrow" data-en="About Us" data-hi="हमारे बारे में">About Us</div><h2 data-en="Your Local Electrical Service" data-hi="आपकी स्थानीय इलेक्ट्रिकल सेवा">Your Local Electrical Service</h2><p class="lead" data-en="Mukesh Electrician offers electrical installation, repair and maintenance services in Premnagar, Surajpur, Chhattisgarh. Get in touch to discuss your electrical work." data-hi="मुकेश इलेक्ट्रिशियन, प्रेमनगर, सूरजपुर, छत्तीसगढ़ में इलेक्ट्रिकल फिटिंग, रिपेयरिंग और मेंटेनेंस सेवाएँ प्रदान करते हैं। अपने काम के लिए संपर्क करें।">Mukesh Electrician offers electrical installation, repair and maintenance services in Premnagar, Surajpur, Chhattisgarh. Get in touch to discuss your electrical work.</p></div>
+  <div class="about-card"><strong data-en="Your Trust, Our Service" data-hi="आपका भरोसा, हमारी सेवा">Your Trust, Our Service</strong><p data-en="For service details and availability, call or message directly." data-hi="सेवा की जानकारी और उपलब्धता के लिए सीधे कॉल या मैसेज करें।">For service details and availability, call or message directly.</p><a class="btn secondary" href="tel:+916266621447" data-en="Contact Mukesh" data-hi="मुकेश से संपर्क करें">Contact Mukesh</a></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="section-title"><div class="eyebrow" data-en="Get In Touch" data-hi="संपर्क करें">Get In Touch</div><h2 data-en="Contact Mukesh Electrician" data-hi="मुकेश इलेक्ट्रिशियन से संपर्क करें">Contact Mukesh Electrician</h2><p data-en="Have electrical work? Let's talk." data-hi="इलेक्ट्रिकल काम है? बात करें।">Have electrical work? Let's talk.</p></div>
+  <div class="contact-grid">
+    <div class="contact-card"><h3 data-en="Call / WhatsApp" data-hi="कॉल / WhatsApp">Call / WhatsApp</h3><p>📞 <a href="tel:+916266621447">6266621447</a></p><p>💬 <a href="https://wa.me/916266621447" target="_blank" rel="noopener">Chat on WhatsApp</a></p></div>
+    <div class="contact-card"><h3 data-en="Service Location" data-hi="सेवा का पता">Service Location</h3><p>📍 Premnagar, Surajpur, Chhattisgarh (C.G.), India</p></div>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Mukesh Electrician · Premnagar, Surajpur, C.G.</div></footer>
+<a class="floating" href="https://wa.me/916266621447" target="_blank" rel="noopener">WhatsApp</a>
+<script>
+const btn=document.getElementById('langBtn');let language='en';
+btn.addEventListener('click',()=>{language=language==='en'?'hi':'en';document.documentElement.lang=language;document.querySelectorAll('[data-en]').forEach(el=>{el.textContent=el.dataset[language]});btn.textContent=language==='en'?'हिंदी':'English';});
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
